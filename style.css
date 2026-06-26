@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #1b1033 0%, #2a1a4d 100%);
+    color: #f1edff;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 56px 28px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    color: #ffd166;
+}
+
+p {
+    margin: 16px auto 0;
+    max-width: 700px;
+    color: #c9bfe8;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+nav {
+    margin-top: 38px;
+}
+
+.menu-group {
+    margin-bottom: 34px;
+}
+
+.menu-group h2 {
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+    color: #ffd166;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+a {
+    display: block;
+    padding: 22px 24px;
+    border-radius: 10px;
+    background: #382660;
+    color: #f1edff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 209, 102, 0.25);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+a:hover,
+ a:focus-visible {
+    transform: translateY(-3px);
+    border-color: #ffd166;
+    background: #4a3380;
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 640px) {
+    main {
+        padding: 32px 18px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    a {
+        padding: 18px 18px;
+    }
+}
+
+footer {
+    margin-top: 44px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #9b8fc4;
+}

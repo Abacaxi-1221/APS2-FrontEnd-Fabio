@@ -24,5 +24,5 @@ As páginas de `projetos/ex-aulas` incluem um link de retorno para o menu princi
 
 Isso permite voltar para a página `index.html` a partir das páginas em `projetos/ex-aulas`.
 
-[Acessar o Projeto]()
+[Acessar o Projeto](https://abacaxi-1221.github.io/APS2-FrontEnd-Fabio/)
 
